@@ -97,10 +97,6 @@ const Drawer = () => {
             <ListItemIcon><SupervisorAccountRoundedIcon/></ListItemIcon>
             <ListItemText primary={'Users'}/>
           </ListItem>
-          <ListItem button onClick={() => history.push('/join')}>
-            <ListItemIcon><SettingsEthernetIcon/></ListItemIcon>
-            <ListItemText primary={'Check'}/>
-          </ListItem>
         </List>
         <Divider/>
         <List>

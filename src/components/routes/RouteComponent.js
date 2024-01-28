@@ -6,7 +6,7 @@ import {Signup, UpdateProfile, Login, ForgotPassword} from "../login.logout";
 import Account from "../../AccountView";
 import {Map} from "../maps";
 import {Users} from "../users";
-import Join from "../Join/Join";
+
 import Leaflet from "../Leaflet/Leaflet";
 import {isLoggedInUser} from "../../actions";
 import {useDispatch, useSelector} from "react-redux";
@@ -59,7 +59,6 @@ function RouteComponent() {
             {/*<PrivateRoute exact path="/update-profile" component={UpdateProfile}/> */}
             {/*<PrivateRoute exact path='/chat/:id' component={ChatPage}/>*/}
             {/*<PrivateRoute exact path='/map/chat/:id' component={ChatPage}/>*/}
-            <PrivateRoute exact path='/join' component={Join}/>
             <PrivateRoute path='/map-leaflet' component={Leaflet}/>
             <Redirect to="/"/>
           </Switch>
