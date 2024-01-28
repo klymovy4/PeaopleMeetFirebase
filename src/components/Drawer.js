@@ -121,7 +121,7 @@ const Drawer = () => {
 
           <ListItem button >
             <ListItemIcon><FeedbackIcon/></ListItemIcon>
-            <ListItemText primary={'v: 2.202.01.01'}/>
+            <ListItemText primary={'v: 4.202.10.82'}/>
           </ListItem>
         </List>
 
